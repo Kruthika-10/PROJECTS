@@ -132,7 +132,30 @@
            * Port range --> 80
 
         ![alt text](instances.png)
-        
+
+### 6.  Create an EC2 instance in Public subnet, install nginx and see if you can access.
+
+   1. EC2 instance created
+   2. To install nginx 
+      * Open & connect to command prompt terminal
+      * ssh -i key.pem ec2-user@<public-instance-ip>
+      * sudo yum update -y
+      * sudo amazon-linux-extras enable nginx1
+      * sudo yum install nginx -y
+      * sudo systemctl start nginx
+      * sudo systemctl enable nginx
+
+   3. Access the public instance via browser using http://public-instance-ip
+       
+       ![alt text](<nginx page.png>)
+
+### 7. Create an EC2 instance in Private subnet, try to access the private instance through the instance in public subnet(Clue: using ssh )
+
+   1. Created a EC2 instance in private subnet.
+   2. In  terminal login as
+      ssh -i "my-kp.pem" ec2-user@private-instance-id
+
+
 
 
 
