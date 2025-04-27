@@ -1,15 +1,15 @@
 ### 1. Create 3 EC-2 Instances with t2.medium instance size
-* Master node
-* Slave node-1
-* Slave node-2
-![alt text](<Screenshot 2025-04-27 193831.png>)
-* Connect to terminal with root user
+ * Master node
+ * Slave node-1
+ * Slave node-2
+   ![alt text](<Screenshot 2025-04-27 193831.png>)
+ * Connect to terminal with root user
 
 ### 2. Install jenkins on master node
-[Install jenkins link](https://phoenixnap.com/kb/install-jenkins-ubuntu)
+ *[Install jenkins link](https://phoenixnap.com/kb/install-jenkins-ubuntu)
 
 ### 3. Establish the connection between master and slaves
-[MASTER NODE]
+ * [MASTER NODE]
  * ls -a
  * cd .ssh/
  * ls
@@ -17,7 +17,7 @@
  * ls
  * cat id_rsa.pub (COPY)
 
- [SLAVE NODE]
+ * [SLAVE NODE]
  * ls -a
  * cd .ssh/
  * vi authorized_keys
@@ -68,7 +68,7 @@
    ![alt text](<Screenshot 2025-04-27 213100.png>) 
    ![alt text](<Screenshot 2025-04-27 220617.png>)
    ![alt text](<Screenshot 2025-04-27 222012.png>)
-   
+
 
 
 
