@@ -17,11 +17,17 @@
  * ls
  * cat id_rsa.pub (COPY)
 
- * [SLAVE NODE]
+ * [SLAVE NODE-1]
  * ls -a
  * cd .ssh/
  * vi authorized_keys
  * (Press O goes to new line and paste here) save
+
+ [SLAVE NODE-2]
+ * ls -a
+ * cd .ssh/
+ * vi authorized_keys
+ * (Press O goes to new line and paste here)   save
 
  # Check the connection established
  
@@ -65,9 +71,12 @@
      hostname -I "    
  * Save
  * Build now
+
+ * Change (usage) and build 
    ![alt text](<Screenshot 2025-04-27 213100.png>) 
    ![alt text](<Screenshot 2025-04-27 220617.png>)
    ![alt text](<Screenshot 2025-04-27 222012.png>)
+
 
 
 
