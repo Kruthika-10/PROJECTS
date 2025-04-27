@@ -6,7 +6,7 @@
  * Connect to terminal with root user
 
 ### 2. Install jenkins on master node
- *[Install jenkins link](https://phoenixnap.com/kb/install-jenkins-ubuntu)
+ * [Install jenkins link](https://phoenixnap.com/kb/install-jenkins-ubuntu)
 
 ### 3. Establish the connection between master and slaves
  * [MASTER NODE]
@@ -25,11 +25,11 @@
 
  # Check the connection established
  
- * ssh root@<public ip of slave>
+ * ssh root@(public ip of slave)
  * yes
 
 ### 4. Open Jenkins of master node
- * <public ip of master node>:8080
+ * (public ip of master node):8080
  * login to jenkins console
  * Manage jenkins --> Nodes --> New Node --> Node name --> Type - Permanent agent --> Create
    ![alt text](<Screenshot 2025-04-27 200729.png>)
@@ -38,7 +38,7 @@
  * Remote root directory --> (paste) [/root/jenkins]
    (want 1 directory in slave node where every jenkins related stuff should load here)
    * Install java-17  (slave node)
-   * Create directory (mkdir <name>)
+   * Create directory (mkdir name)
    * realpath jenkins/  (copy)
    * Labels -->Production
    * Usage --> use this as much as possible  [change after 1 build]
