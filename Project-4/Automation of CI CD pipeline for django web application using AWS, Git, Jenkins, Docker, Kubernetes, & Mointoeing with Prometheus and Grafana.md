@@ -1,6 +1,6 @@
 ### 1. Create 2 EC-2 Instances with t2.medium with pem key
  * Master node
- * Worker noed
+ * Worker node
  ![alt text](<Screenshot 2025-04-28 112512.png>)
 
 ### 2. Install Git, Jenkins, Docker, Kubernetes cluster
