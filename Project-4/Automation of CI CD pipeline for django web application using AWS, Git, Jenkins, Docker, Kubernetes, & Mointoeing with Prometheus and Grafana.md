@@ -1,16 +1,16 @@
 ### 1. Create 2 EC-2 Instances with t2.medium with pem key
  * Master node
  * Worker node
- ![alt text](<Screenshot 2025-04-28 112512.png>)
+  ![alt text](<Screenshot 2025-04-28 112512.png>)
 
 ### 2. Install Git, Jenkins, Docker, Kubernetes cluster
-[Install jenkins](https://phoenixnap.com/kb/install-jenkins-ubuntu)
-[Install Docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04)
+  [Install jenkins](https://phoenixnap.com/kb/install-jenkins-ubuntu)
+  [Install Docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04)
 
  * Give permission for jenkins & docker
    * usermode -aG docker jenkins
    * sudo reboot(connect once again)
-   * git clone [https://github.com/Kruthika-10/Assignment.git] (clone developer code from github)  
+   * git clone url(clone developer code from github)  
 
 ### 3. Open Jenkins console and add code
   ![alt text](<Screenshot 2025-04-28 115009.png>) 
@@ -23,7 +23,7 @@
   ![alt text](<Screenshot 2025-04-28 123255.png>)
 
  * Login to dockerhub repo
- ![alt text](<Screenshot 2025-04-28 132036.png>)
+  ![alt text](<Screenshot 2025-04-28 132036.png>)
  * Check repo should be present
 
  ### 5. Integrate Jenkins with kubernetes
@@ -53,10 +53,10 @@
 
 
 ### 6. Install Parometheus and Grafana 
-[install prometheus & Grafana](https://www.fosstechnix.com/jenkins-monitoring-with-prometheus-and-grafana/)
+  [install prometheus & Grafana](https://www.fosstechnix.com/jenkins-monitoring-with-prometheus-and-grafana/)
 
-*![alt text](<Screenshot 2025-04-28 143537.png>)
-![alt text](<Screenshot 2025-04-28 143514.png>)
+  ![alt text](<Screenshot 2025-04-28 143537.png>)
+  ![alt text](<Screenshot 2025-04-28 143514.png>)
 
 * IN GRAFANA
   * Data sources--> prometeus
