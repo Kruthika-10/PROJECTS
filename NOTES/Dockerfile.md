@@ -36,6 +36,9 @@ eg:
 eg:
  * WORKDIR /root
    ![alt text](<c:\Users\Kruthika MS\Pictures\Screenshots\Screenshot 2025-05-15 114158.png>)
+   ![alt text](VPC.png)
+   ![alt text](c:\Users\Kruthika MS\Pictures\Screenshots\work1.png)
+   
  * WORKDIR /tmp
    c:\Users\Kruthika MS\Pictures\Screenshots\Screenshot 2025-05-15 114448.png 
    
