@@ -35,7 +35,7 @@ eg:
   6. WORKDIR - sets work directory
 eg:
  * WORKDIR /root
-   c:\Users\Kruthika MS\Pictures\Screenshots\Screenshot 2025-05-15 114158.png 
+ ![alt text](<c:\Users\Kruthika MS\Pictures\Screenshots\Screenshot 2025-05-15 114158.png>)
  * WORKDIR /tmp
    c:\Users\Kruthika MS\Pictures\Screenshots\Screenshot 2025-05-15 114448.png 
    
